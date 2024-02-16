@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagens dinâmicas</h1>
+    <p>Imagens para serem abertas em vários dispositivos diferentes ou se adaptar ao zoom do navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Imagens/imagem-P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Imagens/imagem-M.png" type="image/png">
+        <img src="Imagens/imagem-G.png" alt="imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudio</h1>
+    <audio src="midia/Cue - Silent Partner.mp3" controls autoplay></audio>
+</body>
+</html>
